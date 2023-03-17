@@ -55,6 +55,7 @@ face.addEventListener("click", async (e) => {
     // This gives you a Facebook Access Token. You can use it to access the Facebook API.
     const credential = FacebookAuthProvider.credentialFromResult(result);
     const accessToken = credential.accessToken;
+    console.log("HOLA")
 
     // IdP data available using getAdditionalUserInfo(result)
     // ...
