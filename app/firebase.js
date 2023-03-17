@@ -47,6 +47,7 @@ const face = document.querySelector("#facebook");
 
 face.addEventListener("click", async (e) => {
   e.preventDefault();
+  console.log("INICIO")
   signInWithPopup(auth, provider)
   .then((result) => {
     // The signed-in user info.
